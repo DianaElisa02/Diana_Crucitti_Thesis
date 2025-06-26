@@ -18,8 +18,9 @@ Year: 2025
 | `reporting` | Summary statistics and descriptive output |
 | `New_Simulation.py` | Main simulation script (with current cap policy) |
 | `FlatTaxConterfactual.py` | Counterfactual scenario using a flat wealth tax rate |
-| `README.md` | Project documentation (this file) |
-
----
+| `README.md` | this file |
 
 Further informations on the functions can be found in each file as well as the required packages
+
+# Sensitivity Anlyses
+At the top of the `New_Simulation.py` file, these type of code lines are found "USE_INDIVIDUAL = False". You have to selct TRUE to simulate the counterfactual scenarios.
